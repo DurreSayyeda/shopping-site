@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title>Product Details | SHANZA.COM</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+
+
+</head>
+
+  <body>
+    <!-- Single product Details -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/2022-02-01_18_25_27-al-khushbu-hit-design-2010-al-khushbu-wholesaleprice-2010 (1).jpeg" alt="2022-02-01_18_25_27-al-khushbu-hit-design-2010-al-khushbu-wholesaleprice-2010 (1)" width="100%" id="ProductImg" class="main-image">
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img src="images/2022-02-10_18_33_24-al-khushbu-hit-design-2011-al-khushbu-wholesaleprice-2011.jpeg" alt=""width="100%" class="small-img" onclick="changeImage(this)">
+            </div>
+            <div class="small-img-col">
+              <img src="images/2022-02-04_16_07_04-al-khushbu-hit-design-2012-al-khushbu-wholesaleprice-2012.jpeg" alt=""width="100%" class="small-img" onclick="changeImage(this)">
+            </div>
+            <div class="small-img-col">
+              <img src="images/2022-02-10_18_25_08-al-khushbu-hit-design-2008-al-khushbu-wholesaleprice-2008.jpeg" alt=""width="100%" class="small-img" onclick="changeImage(this)">
+            </div>
+            <div class="small-img-col">
+              <img src="images/2021-09-16_12_58_29-al-khushbu-hit-design-119-fashid-wholesale-wholesaleprice-119.jpeg" alt="" width="100%" class="small-img" onclick="changeImage(this)">
+            </div>
+
+          </div>
+        </div>
+        <div class="col-2">
+        <p>Home / Dress</p>
+        <h1>Al-Khushbu Part Wear Suit</h1>
+        <h4>&#x20B9;.1300/-</h4>
+        <select class="" name="">
+          <option value="">Select Size</option>
+          <option value="">Medium</option>
+          <option value="">Large</option>
+          <option value="">XL</option>
+          <option value="">XXL</option>
+        </select>
+        <input type="number" name="" value="1">
+        <a href="#" class="btn">Add to Cart</a>
+        <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+        <br>
+        <p>AL KHUSHBU HIT DESIGN 1025 BY AL KHUSHBU
+    Size  -	Semi Stitched
+    Top Fabric - Faux Georgette Embroidered
+    Bottom Fabric -	Dull Santoon
+    Dupatta Fabric -	Butterfly Net Embroidered</p>
+        </div>
+      </div>
+    </div>
+<script type="text/javascript" language="JavaScript">
+  function changeImage(event){
+    document.querySelector(".main-image").src = (event.children[0].src)
+  }
+</script>
+
+
+
+  </body>
+</html>
